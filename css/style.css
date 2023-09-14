@@ -629,7 +629,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .experience .exp-company {
     margin-bottom: 0;
     color: #AF9483;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -637,12 +637,13 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 10px;
     color: #999999;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
 }
 
 .experience .exp-detail {
     margin-bottom: 0;
+    
 }
 
 
@@ -673,6 +674,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin:30px 0 0;
     padding: 25px 15px 30px 15px;
     background: #e9ecef;
+    height: 250px;
 }
 
 .services .single-service::before {
