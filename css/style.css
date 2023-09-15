@@ -801,6 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     position: relative;
     clear: both;
     padding: 100px 0 30px 0;
+    background: #f1e7e7;
 }
 
 .portfolio .section-header p {
@@ -860,7 +861,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio .portfolio-item figure .link-preview,
 .portfolio .portfolio-item figure .link-details,
-.portfolio .portfolio-item figure .portfolio-title {
+.portfolio .portfolio-item figure .portfolio-title,
+.portfolio .portfolio-item figure .link-detailsIos {
     position: absolute;
     display: inline-block;
     opacity: 0;
@@ -873,19 +875,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-item figure .link-preview i,
-.portfolio .portfolio-item figure .link-details i {
+.portfolio .portfolio-item figure .link-details i,
+.portfolio .portfolio-item figure .link-detailsIos i {
     padding-top: 9px;
     font-size: 22px;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover,
-.portfolio .portfolio-item figure .link-details:hover {
+.portfolio .portfolio-item figure .link-details:hover,
+.portfolio .portfolio-item figure .link-detailsIos:hover {
     background: #AF9483;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
-.portfolio .portfolio-item figure .link-details:hover i {
+.portfolio .portfolio-item figure .link-details:hover i,
+.portfolio .portfolio-item figure .link-detailsIos:hover i {
     color: #ffffff;
+}
+
+.portfolio  .app-dev figure .link-preview {
+    left: 23% !important;
+    top: calc(25% - 18px) !important;
+}
+
+.portfolio .app-dev figure .link-detailsIos {
+    left: 42% !important;
+    top: calc(25% - 18px) !important;
+}
+
+.portfolio .app-dev figure .link-details {
+    right: 23% !important;
+    top: calc(25% - 18px) !important;
 }
 
 .portfolio .portfolio-item figure .link-preview {
@@ -897,6 +917,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: 50%;
     top: calc(25% - 18px);
 }
+
+
 
 .portfolio .portfolio-item figure .portfolio-title {
     margin: 0;
@@ -921,6 +943,20 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+.portfolio  .app-dev figure:hover .link-preview {
+    opacity: 1 !important;
+    left: calc(23% - 40px)!important;
+}
+
+.portfolio .app-dev figure:hover .link-detailsIos {
+    opacity: 1!important;
+    /* left: calc(42% - 20px)!important; */
+}
+.portfolio .app-dev figure:hover .link-details {
+    opacity: 1!important;
+    right: calc(23% - 40px)!important;
 }
 
 .portfolio .portfolio-item figure:hover .link-preview {
